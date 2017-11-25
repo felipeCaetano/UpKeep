@@ -26,3 +26,4 @@ public class Historia2Activity extends AppCompatActivity {
         });
     }
 }
+K
