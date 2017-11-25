@@ -45,15 +45,15 @@
         android:background="@color/colorPrimary"
         android:textColor="@color/textColorPrimary"/>
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:inputType="textPersonName"
-        android:text="Esqueceu a senha?"
+        android:text="@string/esqueceu_senha"
         android:autoLink="web"
         android:ems="10"
-        android:id="@+id/editText_ForgotPass"
+        android:id="@+id/textView_ForgotPass"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="@color/colorPrimary"/>
 </LinearLayout>

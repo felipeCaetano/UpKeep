@@ -12,4 +12,5 @@
     <string name="error_field_required">Este campo é obrigatório!</string>
     <string name="permission_rationale">"Permissões de contatos são necessárias para prever complementações de email."
     </string>
+    <string name="esqueceu_senha">Esqueceu a senha?</string>
 </resources>
