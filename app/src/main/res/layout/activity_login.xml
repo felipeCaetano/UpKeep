@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimaryDark"
+    tools:layout_width="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="232dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView_Logotipo"
+        android:adjustViewBounds="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/action_sign_in"
+        android:ems="10"
+        android:id="@+id/login"
+        android:theme="@style/MyEditText"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/action_password"
+        android:ems="10"
+        android:id="@+id/password"
+        android:theme="@style/MyEditText"
+        />
+
+    <Button
+        android:text="Entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_SignIn"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColorPrimary"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="Esqueceu a senha?"
+        android:autoLink="web"
+        android:ems="10"
+        android:id="@+id/editText_ForgotPass"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
